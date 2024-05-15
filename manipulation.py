@@ -120,32 +120,23 @@ def get_load_summary(date):
 
 def get_vus_session_length(date):
     report = get_report(date)
+
+    metric_label_map = {
+        "mean": "Mean",
+        "min": "Minimum",
+        "median": "Median",
+        "p75": "Percentile 75",
+        "p90": "Percentile 90",
+        "p95": "Percentile 95",
+        "p99": "Percentile 99",
+        "max": "Maximum"
+    }    
     session_length_dict = { "Session Length (ms)": [], "Metric": [] }
     session_length = report["aggregate"]["summaries"]["vusers.session_length"]
     
-    session_length_dict["Session Length (ms)"].append(session_length["mean"])
-    session_length_dict["Metric"].append("Mean")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["min"])
-    session_length_dict["Metric"].append("Minimum")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["median"])
-    session_length_dict["Metric"].append("Median")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p75"])
-    session_length_dict["Metric"].append("Percentile 75")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p90"])
-    session_length_dict["Metric"].append("Percentile 90")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p95"])
-    session_length_dict["Metric"].append("Percentile 95")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p99"])
-    session_length_dict["Metric"].append("Percentile 99")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["max"])
-    session_length_dict["Metric"].append("Maximum")
-    
+    for key, value in metric_label_map.items():
+        session_length_dict["Session Length (ms)"].append(session_length[key])
+        session_length_dict["Metric"].append(value)
+        
     df = pd.DataFrame(session_length_dict)
     return df
