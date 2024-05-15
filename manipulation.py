@@ -28,7 +28,7 @@ def get_http_requests_df(date):
     return df
 
 def get_page_performance_df(date):
-    baseUrl = "https://platform-stage.traivefinance.com"
+    baseUrl = "https://mocked-site.tests.com"
     report = get_report(date)
     page_performance_dict = { "URL": [], "Response Time (ms)": [], "Type": [], "Metric": [] }
     summaries = report["aggregate"]["summaries"]
@@ -80,38 +80,6 @@ def get_page_performance_df(date):
     df = pd.DataFrame(page_performance_dict)
     return df
 
-def get_vus_session_length(date):
-    report = get_report(date)
-    session_length_dict = { "Session Length (ms)": [], "Metric": [] }
-    session_length = report["aggregate"]["summaries"]["vusers.session_length"]
-    
-    session_length_dict["Session Length (ms)"].append(session_length["mean"])
-    session_length_dict["Metric"].append("Mean")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["min"])
-    session_length_dict["Metric"].append("Minimum")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["median"])
-    session_length_dict["Metric"].append("Median")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p75"])
-    session_length_dict["Metric"].append("Percentile 75")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p90"])
-    session_length_dict["Metric"].append("Percentile 90")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p95"])
-    session_length_dict["Metric"].append("Percentile 95")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["p99"])
-    session_length_dict["Metric"].append("Percentile 99")
-    
-    session_length_dict["Session Length (ms)"].append(session_length["max"])
-    session_length_dict["Metric"].append("Maximum")
-    
-    df = pd.DataFrame(session_length_dict)
-    return df
-
 def get_load_summary(date):
     report = get_report(date)
     load_summary_dict = { "Virtual Users": [], "HTTP Requests": [], "Timestamps": [] }
@@ -148,4 +116,36 @@ def get_load_summary(date):
         load_summary_dict["HTTP Requests"].append(httpRequestRate)
         
     df = pd.DataFrame(load_summary_dict)
+    return df
+
+def get_vus_session_length(date):
+    report = get_report(date)
+    session_length_dict = { "Session Length (ms)": [], "Metric": [] }
+    session_length = report["aggregate"]["summaries"]["vusers.session_length"]
+    
+    session_length_dict["Session Length (ms)"].append(session_length["mean"])
+    session_length_dict["Metric"].append("Mean")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["min"])
+    session_length_dict["Metric"].append("Minimum")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["median"])
+    session_length_dict["Metric"].append("Median")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["p75"])
+    session_length_dict["Metric"].append("Percentile 75")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["p90"])
+    session_length_dict["Metric"].append("Percentile 90")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["p95"])
+    session_length_dict["Metric"].append("Percentile 95")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["p99"])
+    session_length_dict["Metric"].append("Percentile 99")
+    
+    session_length_dict["Session Length (ms)"].append(session_length["max"])
+    session_length_dict["Metric"].append("Maximum")
+    
+    df = pd.DataFrame(session_length_dict)
     return df

@@ -1,12 +1,10 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
-import os
 from utils import plotly_dual_axis, get_all_dates
-from manipulation import get_vus_df, get_http_requests_df, get_page_performance_df, get_vus_session_length, get_load_summary
+from manipulation import get_vus_df, get_http_requests_df, get_page_performance_df, get_load_summary, get_vus_session_length
 
 app = Dash(__name__)
-app._favicon = "favico.ico"
-app.title = "Test Report Traive"
+app.title = "Test Report"
 app.css.config.serve_locally = True
 
 dates = get_all_dates()

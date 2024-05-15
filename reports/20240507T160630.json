@@ -1,7 +1,7 @@
 {
   "aggregate": {
     "counters": {
-      "vusers.created_by_name.LOGIN TRAIVE": 1,
+      "vusers.created_by_name.LOGIN": 1,
       "vusers.created": 1,
       "browser.page.codes.200": 61,
       "browser.http_requests": 69,
@@ -20,7 +20,7 @@
     "lastMetricAt": 1715351816209,
     "period": 1715351810000,
     "summaries": {
-      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+      "browser.page.TTFB.https://mocked-site.tests.com/": {
         "min": 354,
         "max": 354,
         "count": 1,
@@ -33,7 +33,7 @@
         "p99": 354.3,
         "p999": 354.3
       },
-      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+      "browser.page.TTFB.https://mocked-site.tests.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
         "min": 614.8,
         "max": 614.8,
         "count": 1,
@@ -46,7 +46,7 @@
         "p99": 620.3,
         "p999": 620.3
       },
-      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+      "browser.page.FCP.https://mocked-site.tests.com/home": {
         "min": 1718,
         "max": 1718,
         "count": 1,
@@ -74,7 +74,7 @@
       }
     },
     "histograms": {
-      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+      "browser.page.TTFB.https://mocked-site.tests.com/": {
         "min": 354,
         "max": 354,
         "count": 1,
@@ -87,7 +87,7 @@
         "p99": 354.3,
         "p999": 354.3
       },
-      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+      "browser.page.TTFB.https://mocked-site.tests.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
         "min": 614.8,
         "max": 614.8,
         "count": 1,
@@ -100,7 +100,7 @@
         "p99": 620.3,
         "p999": 620.3
       },
-      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+      "browser.page.FCP.https://mocked-site.tests.com/home": {
         "min": 1718,
         "max": 1718,
         "count": 1,
@@ -131,7 +131,7 @@
   "intermediate": [
     {
       "counters": {
-        "vusers.created_by_name.LOGIN TRAIVE": 1,
+        "vusers.created_by_name.LOGIN": 1,
         "vusers.created": 1
       },
       "rates": {},
@@ -162,7 +162,7 @@
       "lastMetricAt": 1715351816209,
       "period": "1715351810000",
       "summaries": {
-        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "browser.page.TTFB.https://mocked-site.tests.com/": {
           "min": 354,
           "max": 354,
           "count": 1,
@@ -175,7 +175,7 @@
           "p99": 354.3,
           "p999": 354.3
         },
-        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+        "browser.page.TTFB.https://mocked-site.tests.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
           "min": 614.8,
           "max": 614.8,
           "count": 1,
@@ -188,7 +188,7 @@
           "p99": 620.3,
           "p999": 620.3
         },
-        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "browser.page.FCP.https://mocked-site.tests.com/home": {
           "min": 1718,
           "max": 1718,
           "count": 1,
@@ -216,7 +216,7 @@
         }
       },
       "histograms": {
-        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "browser.page.TTFB.https://mocked-site.tests.com/": {
           "min": 354,
           "max": 354,
           "count": 1,
@@ -229,7 +229,7 @@
           "p99": 354.3,
           "p999": 354.3
         },
-        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+        "browser.page.TTFB.https://mocked-site.tests.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
           "min": 614.8,
           "max": 614.8,
           "count": 1,
@@ -242,7 +242,7 @@
           "p99": 620.3,
           "p999": 620.3
         },
-        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "browser.page.FCP.https://mocked-site.tests.com/home": {
           "min": 1718,
           "max": 1718,
           "count": 1,

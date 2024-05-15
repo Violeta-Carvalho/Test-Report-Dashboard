@@ -1,6 +1,6 @@
 # Introduction
 
-This project directory is the PoC of Test Report with Plotly from the [automated tests repository](https://github.com/Traive-Finance/e2e-test-automation/). In order to be able to run it, you will need to have Python installed. After that, you run `pip install -r requirements.txt ` to install all of the necessary packages.
+This project directory is the PoC of Test Report with Plotly from the automated tests performed with Artillery and Playwright. In order to be able to run it, you will need to have Python installed. After that, you run `pip install -r requirements.txt ` to install all of the necessary packages.
 
 ## Available Scripts
 

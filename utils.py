@@ -45,16 +45,13 @@ def get_all_reports():
 def plotly_dual_axis(data1, data2, title="", y1="", y2="", x="Timestamps"):
     subplot_fig = make_subplots(specs=[[{"secondary_y": True}]])
 
-    fig1 = px.line(y=data1[y1], x=data1[x])
-    fig2 = px.line(data2[y2], x=data2[x])
+    fig1 = px.line(data1, y=y1, x=x)
+    fig2 = px.line(data2, y=y2, x=x)
     fig2.update_traces(yaxis="y2")
 
     subplot_fig.add_traces(fig1.data + fig2.data)
-
     subplot_fig.update_layout(title=title, yaxis=dict(title=y1), yaxis2=dict(title=y2), xaxis=dict(title=x))
-
     subplot_fig.for_each_trace(lambda t: t.update(line=dict(color=t.marker.color)))
-
 
     return subplot_fig
 
