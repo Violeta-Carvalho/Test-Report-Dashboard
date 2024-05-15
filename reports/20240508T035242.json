@@ -1,0 +1,280 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.LOGIN TRAIVE": 1,
+      "vusers.created": 1,
+      "browser.page.codes.200": 61,
+      "browser.http_requests": 69,
+      "browser.page.codes.302": 1,
+      "browser.page.codes.304": 6,
+      "browser.page.codes.202": 2,
+      "vusers.failed": 0,
+      "vusers.completed": 1
+    },
+    "rates": {},
+    "firstCounterAt": 1715351978532,
+    "firstHistogramAt": 1715351979575,
+    "lastCounterAt": 1715351986229,
+    "lastHistogramAt": 1715351986229,
+    "firstMetricAt": 1715351978532,
+    "lastMetricAt": 1715351986229,
+    "period": 1715351980000,
+    "summaries": {
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "min": 359.5,
+        "max": 359.5,
+        "count": 1,
+        "mean": 359.5,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 361.5,
+        "p90": 361.5,
+        "p95": 361.5,
+        "p99": 361.5,
+        "p999": 361.5
+      },
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=06392e08-feea-499e-99ea-11767eb55a40&session_state=a91a0621-90b2-4888-aaee-7eaea81730e6&code=48ed64fd-88bd-4437-889b-136bb144f9cf.a91a0621-90b2-4888-aaee-7eaea81730e6.fd276298-5442-4809-9807-0c3401b18079": {
+        "min": 662.5,
+        "max": 662.5,
+        "count": 1,
+        "mean": 662.5,
+        "p50": 658.6,
+        "median": 658.6,
+        "p75": 658.6,
+        "p90": 658.6,
+        "p95": 658.6,
+        "p99": 658.6,
+        "p999": 658.6
+      },
+      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "min": 1714,
+        "max": 1714,
+        "count": 1,
+        "mean": 1714,
+        "p50": 1720.2,
+        "median": 1720.2,
+        "p75": 1720.2,
+        "p90": 1720.2,
+        "p95": 1720.2,
+        "p99": 1720.2,
+        "p999": 1720.2
+      },
+      "vusers.session_length": {
+        "min": 7696.8,
+        "max": 7696.8,
+        "count": 1,
+        "mean": 7696.8,
+        "p50": 7709.8,
+        "median": 7709.8,
+        "p75": 7709.8,
+        "p90": 7709.8,
+        "p95": 7709.8,
+        "p99": 7709.8,
+        "p999": 7709.8
+      }
+    },
+    "histograms": {
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "min": 359.5,
+        "max": 359.5,
+        "count": 1,
+        "mean": 359.5,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 361.5,
+        "p90": 361.5,
+        "p95": 361.5,
+        "p99": 361.5,
+        "p999": 361.5
+      },
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=06392e08-feea-499e-99ea-11767eb55a40&session_state=a91a0621-90b2-4888-aaee-7eaea81730e6&code=48ed64fd-88bd-4437-889b-136bb144f9cf.a91a0621-90b2-4888-aaee-7eaea81730e6.fd276298-5442-4809-9807-0c3401b18079": {
+        "min": 662.5,
+        "max": 662.5,
+        "count": 1,
+        "mean": 662.5,
+        "p50": 658.6,
+        "median": 658.6,
+        "p75": 658.6,
+        "p90": 658.6,
+        "p95": 658.6,
+        "p99": 658.6,
+        "p999": 658.6
+      },
+      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "min": 1714,
+        "max": 1714,
+        "count": 1,
+        "mean": 1714,
+        "p50": 1720.2,
+        "median": 1720.2,
+        "p75": 1720.2,
+        "p90": 1720.2,
+        "p95": 1720.2,
+        "p99": 1720.2,
+        "p999": 1720.2
+      },
+      "vusers.session_length": {
+        "min": 7696.8,
+        "max": 7696.8,
+        "count": 1,
+        "mean": 7696.8,
+        "p50": 7709.8,
+        "median": 7709.8,
+        "p75": 7709.8,
+        "p90": 7709.8,
+        "p95": 7709.8,
+        "p99": 7709.8,
+        "p999": 7709.8
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.LOGIN TRAIVE": 1,
+        "vusers.created": 1,
+        "browser.page.codes.200": 11,
+        "browser.http_requests": 11
+      },
+      "rates": {},
+      "firstCounterAt": 1715351978532,
+      "firstHistogramAt": 1715351979575,
+      "lastCounterAt": 1715351979832,
+      "lastHistogramAt": 1715351979575,
+      "firstMetricAt": 1715351978532,
+      "lastMetricAt": 1715351979832,
+      "period": "1715351970000",
+      "summaries": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+          "min": 359.5,
+          "max": 359.5,
+          "count": 1,
+          "mean": 359.5,
+          "p50": 361.5,
+          "median": 361.5,
+          "p75": 361.5,
+          "p90": 361.5,
+          "p95": 361.5,
+          "p99": 361.5,
+          "p999": 361.5
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+          "min": 359.5,
+          "max": 359.5,
+          "count": 1,
+          "mean": 359.5,
+          "p50": 361.5,
+          "median": 361.5,
+          "p75": 361.5,
+          "p90": 361.5,
+          "p95": 361.5,
+          "p99": 361.5,
+          "p999": 361.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "browser.page.codes.200": 50,
+        "browser.http_requests": 58,
+        "browser.page.codes.302": 1,
+        "browser.page.codes.304": 6,
+        "browser.page.codes.202": 2,
+        "vusers.failed": 0,
+        "vusers.completed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1715351980335,
+      "firstHistogramAt": 1715351983158,
+      "lastCounterAt": 1715351986229,
+      "lastHistogramAt": 1715351986229,
+      "firstMetricAt": 1715351980335,
+      "lastMetricAt": 1715351986229,
+      "period": "1715351980000",
+      "summaries": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=06392e08-feea-499e-99ea-11767eb55a40&session_state=a91a0621-90b2-4888-aaee-7eaea81730e6&code=48ed64fd-88bd-4437-889b-136bb144f9cf.a91a0621-90b2-4888-aaee-7eaea81730e6.fd276298-5442-4809-9807-0c3401b18079": {
+          "min": 662.5,
+          "max": 662.5,
+          "count": 1,
+          "mean": 662.5,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        },
+        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+          "min": 1714,
+          "max": 1714,
+          "count": 1,
+          "mean": 1714,
+          "p50": 1720.2,
+          "median": 1720.2,
+          "p75": 1720.2,
+          "p90": 1720.2,
+          "p95": 1720.2,
+          "p99": 1720.2,
+          "p999": 1720.2
+        },
+        "vusers.session_length": {
+          "min": 7696.8,
+          "max": 7696.8,
+          "count": 1,
+          "mean": 7696.8,
+          "p50": 7709.8,
+          "median": 7709.8,
+          "p75": 7709.8,
+          "p90": 7709.8,
+          "p95": 7709.8,
+          "p99": 7709.8,
+          "p999": 7709.8
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=06392e08-feea-499e-99ea-11767eb55a40&session_state=a91a0621-90b2-4888-aaee-7eaea81730e6&code=48ed64fd-88bd-4437-889b-136bb144f9cf.a91a0621-90b2-4888-aaee-7eaea81730e6.fd276298-5442-4809-9807-0c3401b18079": {
+          "min": 662.5,
+          "max": 662.5,
+          "count": 1,
+          "mean": 662.5,
+          "p50": 658.6,
+          "median": 658.6,
+          "p75": 658.6,
+          "p90": 658.6,
+          "p95": 658.6,
+          "p99": 658.6,
+          "p999": 658.6
+        },
+        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+          "min": 1714,
+          "max": 1714,
+          "count": 1,
+          "mean": 1714,
+          "p50": 1720.2,
+          "median": 1720.2,
+          "p75": 1720.2,
+          "p90": 1720.2,
+          "p95": 1720.2,
+          "p99": 1720.2,
+          "p999": 1720.2
+        },
+        "vusers.session_length": {
+          "min": 7696.8,
+          "max": 7696.8,
+          "count": 1,
+          "mean": 7696.8,
+          "p50": 7709.8,
+          "median": 7709.8,
+          "p75": 7709.8,
+          "p90": 7709.8,
+          "p95": 7709.8,
+          "p99": 7709.8,
+          "p999": 7709.8
+        }
+      }
+    }
+  ]
+}

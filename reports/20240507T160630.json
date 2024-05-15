@@ -1,0 +1,274 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.LOGIN TRAIVE": 1,
+      "vusers.created": 1,
+      "browser.page.codes.200": 61,
+      "browser.http_requests": 69,
+      "browser.page.codes.302": 1,
+      "browser.page.codes.304": 6,
+      "browser.page.codes.202": 2,
+      "vusers.failed": 0,
+      "vusers.completed": 1
+    },
+    "rates": {},
+    "firstCounterAt": 1715351808730,
+    "firstHistogramAt": 1715351810452,
+    "lastCounterAt": 1715351816209,
+    "lastHistogramAt": 1715351816209,
+    "firstMetricAt": 1715351808730,
+    "lastMetricAt": 1715351816209,
+    "period": 1715351810000,
+    "summaries": {
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "min": 354,
+        "max": 354,
+        "count": 1,
+        "mean": 354,
+        "p50": 354.3,
+        "median": 354.3,
+        "p75": 354.3,
+        "p90": 354.3,
+        "p95": 354.3,
+        "p99": 354.3,
+        "p999": 354.3
+      },
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+        "min": 614.8,
+        "max": 614.8,
+        "count": 1,
+        "mean": 614.8,
+        "p50": 620.3,
+        "median": 620.3,
+        "p75": 620.3,
+        "p90": 620.3,
+        "p95": 620.3,
+        "p99": 620.3,
+        "p999": 620.3
+      },
+      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "min": 1718,
+        "max": 1718,
+        "count": 1,
+        "mean": 1718,
+        "p50": 1720.2,
+        "median": 1720.2,
+        "p75": 1720.2,
+        "p90": 1720.2,
+        "p95": 1720.2,
+        "p99": 1720.2,
+        "p999": 1720.2
+      },
+      "vusers.session_length": {
+        "min": 7479,
+        "max": 7479,
+        "count": 1,
+        "mean": 7479,
+        "p50": 7407.5,
+        "median": 7407.5,
+        "p75": 7407.5,
+        "p90": 7407.5,
+        "p95": 7407.5,
+        "p99": 7407.5,
+        "p999": 7407.5
+      }
+    },
+    "histograms": {
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+        "min": 354,
+        "max": 354,
+        "count": 1,
+        "mean": 354,
+        "p50": 354.3,
+        "median": 354.3,
+        "p75": 354.3,
+        "p90": 354.3,
+        "p95": 354.3,
+        "p99": 354.3,
+        "p999": 354.3
+      },
+      "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+        "min": 614.8,
+        "max": 614.8,
+        "count": 1,
+        "mean": 614.8,
+        "p50": 620.3,
+        "median": 620.3,
+        "p75": 620.3,
+        "p90": 620.3,
+        "p95": 620.3,
+        "p99": 620.3,
+        "p999": 620.3
+      },
+      "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+        "min": 1718,
+        "max": 1718,
+        "count": 1,
+        "mean": 1718,
+        "p50": 1720.2,
+        "median": 1720.2,
+        "p75": 1720.2,
+        "p90": 1720.2,
+        "p95": 1720.2,
+        "p99": 1720.2,
+        "p999": 1720.2
+      },
+      "vusers.session_length": {
+        "min": 7479,
+        "max": 7479,
+        "count": 1,
+        "mean": 7479,
+        "p50": 7407.5,
+        "median": 7407.5,
+        "p75": 7407.5,
+        "p90": 7407.5,
+        "p95": 7407.5,
+        "p99": 7407.5,
+        "p999": 7407.5
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.LOGIN TRAIVE": 1,
+        "vusers.created": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1715351808730,
+      "lastCounterAt": 1715351808730,
+      "firstMetricAt": 1715351808730,
+      "lastMetricAt": 1715351808730,
+      "period": "1715351800000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "browser.page.codes.200": 61,
+        "browser.http_requests": 69,
+        "browser.page.codes.302": 1,
+        "browser.page.codes.304": 6,
+        "browser.page.codes.202": 2,
+        "vusers.failed": 0,
+        "vusers.completed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1715351810249,
+      "firstHistogramAt": 1715351810452,
+      "lastCounterAt": 1715351816209,
+      "lastHistogramAt": 1715351816209,
+      "firstMetricAt": 1715351810249,
+      "lastMetricAt": 1715351816209,
+      "period": "1715351810000",
+      "summaries": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+          "min": 354,
+          "max": 354,
+          "count": 1,
+          "mean": 354,
+          "p50": 354.3,
+          "median": 354.3,
+          "p75": 354.3,
+          "p90": 354.3,
+          "p95": 354.3,
+          "p99": 354.3,
+          "p999": 354.3
+        },
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+          "min": 614.8,
+          "max": 614.8,
+          "count": 1,
+          "mean": 614.8,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 620.3,
+          "p90": 620.3,
+          "p95": 620.3,
+          "p99": 620.3,
+          "p999": 620.3
+        },
+        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+          "min": 1718,
+          "max": 1718,
+          "count": 1,
+          "mean": 1718,
+          "p50": 1720.2,
+          "median": 1720.2,
+          "p75": 1720.2,
+          "p90": 1720.2,
+          "p95": 1720.2,
+          "p99": 1720.2,
+          "p999": 1720.2
+        },
+        "vusers.session_length": {
+          "min": 7479,
+          "max": 7479,
+          "count": 1,
+          "mean": 7479,
+          "p50": 7407.5,
+          "median": 7407.5,
+          "p75": 7407.5,
+          "p90": 7407.5,
+          "p95": 7407.5,
+          "p99": 7407.5,
+          "p999": 7407.5
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/": {
+          "min": 354,
+          "max": 354,
+          "count": 1,
+          "mean": 354,
+          "p50": 354.3,
+          "median": 354.3,
+          "p75": 354.3,
+          "p90": 354.3,
+          "p95": 354.3,
+          "p99": 354.3,
+          "p999": 354.3
+        },
+        "browser.page.TTFB.https://platform-stage.traivefinance.com/#state=817fe230-f6fb-4b84-8834-3e5115870826&session_state=4d33d6db-0c2e-48b9-8361-eab1054d16bc&code=95830ece-24f6-4d05-88c9-4bae6b1f22eb.4d33d6db-0c2e-48b9-8361-eab1054d16bc.fd276298-5442-4809-9807-0c3401b18079": {
+          "min": 614.8,
+          "max": 614.8,
+          "count": 1,
+          "mean": 614.8,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 620.3,
+          "p90": 620.3,
+          "p95": 620.3,
+          "p99": 620.3,
+          "p999": 620.3
+        },
+        "browser.page.FCP.https://platform-stage.traivefinance.com/home": {
+          "min": 1718,
+          "max": 1718,
+          "count": 1,
+          "mean": 1718,
+          "p50": 1720.2,
+          "median": 1720.2,
+          "p75": 1720.2,
+          "p90": 1720.2,
+          "p95": 1720.2,
+          "p99": 1720.2,
+          "p999": 1720.2
+        },
+        "vusers.session_length": {
+          "min": 7479,
+          "max": 7479,
+          "count": 1,
+          "mean": 7479,
+          "p50": 7407.5,
+          "median": 7407.5,
+          "p75": 7407.5,
+          "p90": 7407.5,
+          "p95": 7407.5,
+          "p99": 7407.5,
+          "p999": 7407.5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(21, 9, 88);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    width: 200px;
+    margin-left: 8px;
+    height: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.input * {
+    color: black;
+    font-weight: normal;
+}
+
+.graph {
+    width: 90vw;
+    margin: 16px
+}
+
+.half-graph {
+    width: 45vw;
+    margin: 16px 8px;
+}
